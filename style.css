@@ -67,45 +67,112 @@ nav ul li a:hover::after{
     color: #ff0000;
 }
 
-/* --------------about------------- */
-#about{
-    padding: 80px o;
-    color: #000000;
+/* SECTION 1 (ABOUT) */
+#section-about{
+    height: 100vh;
+    padding-top: 70px;
 }
-.row{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+
+.about h2{
+    text-align: center;
 }
-.sub-title{
-    font-size: 60px;
-    font-weight: 600;
+.about div{
+    text-align: center;
+}
+
+.about img{
+    width: 400px;
+    height: 400px;
+    float: right;
+    border-radius: 400px;
+    padding: auto;
+    margin-right: 100px;
+}
+
+.about-statement p{
+    margin-left: 100px;
+    font-size: 45px;
+    color: #ff0000;
+    font-style: italic;
+}
+
+.vision-statement h3{
+    margin: 15px;
     color: #ff0000;
 }
-.about-col-1{
-    flex-basis: 35%;
+
+.vision-statement p{
+    margin: 15px;
 }
-.tab-titles{
-    display: flex;
-    margin: 20px 0 40px;
+
+.mission-statement h3{
+    margin: 15px;
+    color: #ff0000;
 }
-.tab-links{
-    margin-right: 50px;
-    font-size: 18px;
-    font-weight: 500;
-    cursor: pointer;
+
+.mission-statement p{
+    margin: 15px;
+}
+
+.values-statement h3{
+    margin: 15px;
+    color: #ff0000;
+}
+
+.values-statement p{
+    margin: 15px;
+}
+/* SECTION 4 (CONTACT)*/
+#section-contact{
+    height: 100vh;
+    padding-top: 70px;
+}
+
+.contact h2{
+    text-align: center;
+}
+
+fieldset{
+    text-align: center;
+    margin: auto;
+    border-color: #ff0000;
+    width: 1050px;
+    border-style: double;
+    border-width: 5px;
+}
+
+legend{
+    color: #ff0000;
+    font-size: 30px;
+    text-align: left;
+}
+
+/* FOOTER */
+.main-footer{
+    background-color: #ff0000;
+    height: 60px;
+    padding: 0px;
+    margin: 0;
     position: relative;
 }
-.tab-links::after{
-    content: '';
-    width: 0;
-    height: 3px;
-    background: #ff004f;
-    position: absolute;
-    left: 0;
-    bottom: -8px;
-    transition: 0.5s;
+
+.list-footer{
+    text-decoration-line: none;
+    margin: auto;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
 }
-.tab-links.active-link::after{
-    width: 50%;
+
+.list-footer a{
+    padding: 10px;
 }
+
+.list-footer img{
+    width: 30px;
+    text-decoration-line: none;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* MEDIA QUERY */
